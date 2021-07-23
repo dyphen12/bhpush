@@ -1,0 +1,24 @@
+{
+  "name": "bhpush",
+  "version": "1.0.0",
+  "description": "Prisma Systems Bounty Hunter Push Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyphen12/bhpush.git"
+  },
+  "keywords": [
+    "push",
+    "notifications",
+    "server"
+  ],
+  "author": "Alexis Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dyphen12/bhpush/issues"
+  },
+  "homepage": "https://github.com/dyphen12/bhpush#readme"
+}
