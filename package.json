@@ -1,24 +1,26 @@
 {
   "name": "bhpush",
   "version": "1.0.0",
-  "description": "Prisma Systems Bounty Hunter Push Server",
+  "description": "Bounty Hunter Push Notification Server",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dyphen12/bhpush.git"
   },
-  "keywords": [
-    "push",
-    "notifications",
-    "server"
-  ],
-  "author": "Alexis Wong",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dyphen12/bhpush/issues"
   },
-  "homepage": "https://github.com/dyphen12/bhpush#readme"
+  "homepage": "https://github.com/dyphen12/bhpush#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "web-push": "^3.4.5"
+  }
 }
